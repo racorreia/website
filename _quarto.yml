@@ -1,14 +1,23 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "website"
+  title: "Ricardo A. Correia"
   navbar:
     background: primary
+    pinned: true
+    search: true
+    collapse: false
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/rahcorreia85
+      - icon: mortarboard-fill
+        href: https://scholar.google.fi/citations?user=sU-JXvwAAAAJ&hl=en
 
 format:
   html:
@@ -17,4 +26,3 @@ format:
     toc: true
 
 editor: visual
-
