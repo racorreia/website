@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Ricardo A. Correia"
+  title: "Ricardo Correia"
   navbar:
     background: primary
     pinned: true
